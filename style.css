@@ -1,0 +1,188 @@
+@font-face{
+	font-family:'font1';
+	src:url(fonts/NotoSansJP-Regular.otf)
+}
+* {
+	font-family:'font1';
+}
+
+body{
+    margin:0;
+}
+	
+header{
+	background-image:url(img/headerfoto3.jpg);
+	padding:70px 140px;
+	
+}
+header img{
+	border-radius:30px;
+	border: 1px solid black;
+
+}
+
+.carousele{
+	width:100%;
+}
+.carousele div img{
+	width:100%;
+}
+#menu{
+	display:block;
+	width:100%;
+	height:auto;
+	position:relative;
+	z-index:10;
+	font-family:'font1';
+}
+#menu ul{
+	display:block;
+	width:100%;
+	height:auto;
+	position:relative;
+	padding:0;
+	margin:0;
+	list-style:none;
+	
+}
+#menu ul li{
+	background-color:#B1865F;
+	position:relative;
+	display:block;
+	width:auto;
+	height:auto;
+	float:right;
+	border-radius:30px;
+}
+#menu ul li a{
+	text-decoration:none;
+	display:block;
+	padding:8px 20px 8px 20px;
+	font-size:14px;
+    line-height:21px;
+	font-weight:bold;
+	text-transform:uppercase;
+	color:white;
+    box-sizing:border-box;	
+}
+#menu ul li ul{
+	position:absolute;
+	left:0;
+	top:36px;
+	display:none;
+	width:200px;
+	background-color:#53alaf;
+}
+#menu ul li ul li{
+	width:100%;
+	float:left;
+}
+#menu ul li ul li a{
+	display:block;
+	text-transform:none;
+	height:auto;
+	width:100%;
+	padding:8px 20px;
+	color:white;
+	border-top:1px solid gray;
+	box-sizing:border-box;
+}
+#menu ul li:hover ul{
+	display:block;
+}
+#menu > ul::after{
+	display:block;
+	content:' ';
+	width:100%;
+	height:0;
+	clear:both;
+}
+
+#menu ul li ul li:first-child a{
+	border-top:0;
+}
+
+form{
+	padding:10px 200px;
+}
+input{
+	padding:10px;
+	border-radius:30px;
+}
+
+
+.logo{
+	display:flex;
+}
+
+.block{
+	display:flex;
+	margin-left:1440px;
+	
+}
+.block img{
+	height:50px;
+
+}
+
+.block img{
+	
+	margin-bottom:50px;
+	background-color:#FFFFFF;
+}	
+
+.post{
+	display:flex;
+    margin-bottom:50px;
+	border-radius:30px;
+	background-color:#FFFFFF;
+}
+.post img{
+	height:330px;
+	margin:50px 70px;
+
+}
+
+.post div{
+
+	margin-top:50px;
+
+}
+footer{
+	background-image:url(img/headerfoto3.jpg);
+	height: 100px;
+	padding:130px;
+}
+footer img{
+	border: 1px solid black;
+	border-radius:30px;
+	margin-bottom:10px;
+	
+	
+}
+main{
+	background-color:#C4C4C4;
+	padding:50px 140px;
+}
+
+.banner > img{
+	width: 100%;
+	margin-bottom: 50px;
+	border-radius: 30px;
+}
+
+.submit{
+	background-color:#A40E0E;
+	font-family:'font1';
+}
+.post input{
+	background-color:#A40E0E;
+}
+.btn-next input{
+	background-color:#A40E0E;
+}
+
+.btn-next{
+	display: flex;
+	justify-content: center;
+}
